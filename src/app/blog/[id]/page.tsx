@@ -95,7 +95,7 @@ const Blog = () => {
     return <div>No blog found</div>;
   }
   return (
-    <div className="container max-w-6xl mx-auto ">
+    <div className="container max-w-6xl mx-auto text-black">
       <div className="mt-10 mx-5 ">
         <Image
           className="w-full h-full object-cover rounded-lg "
@@ -112,7 +112,7 @@ const Blog = () => {
         </p>
       </div>
       <div className="mt-5 mx-5">
-        <h2 className="text-3xl font-semibold mt-10 text-center lg:text-left text-black">
+        <h2 className="text-3xl font-semibold mt-10 text-center lg:text-left ">
           Comments 
         </h2>
         <form onSubmit={handleComment} className="mt-5 space-y-3">
