@@ -18,6 +18,8 @@ const Navbar = () => {
         <Image
           src="/images/logo pic1.png"
           alt="Header Logo"
+          width={50}
+          height={50}
           className="rounded-full w-[50px] h-[50px]"
         />
       </Link>

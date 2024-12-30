@@ -112,8 +112,8 @@ const Blog = () => {
         </p>
       </div>
       <div className="mt-5 mx-5">
-        <h2 className="text-3xl font-semibold mt-10 text-center lg:text-left">
-          Comments Here
+        <h2 className="text-3xl font-semibold mt-10 text-center lg:text-left text-black">
+          Comments 
         </h2>
         <form onSubmit={handleComment} className="mt-5 space-y-3">
           <textarea
